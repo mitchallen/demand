@@ -21,7 +21,7 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
 
  	database.connect(uri, function(err,db) {
 
- 		demand.notErr(err);
+ 		demand.notError(err);
 
 		demand.notNull(db,"ERROR: db is null");
  	});
@@ -63,6 +63,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.1 release notes
+
+* Fixed type-o in README example
 
 #### Version 0.1.0 release notes
 
