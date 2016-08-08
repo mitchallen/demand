@@ -6,6 +6,13 @@ module.exports = function (grunt) {
                 node: true
             },
             all: ['*.js']
+        },
+        bump: {
+            options: {
+                commit: true,
+                createTag: true,
+                push: true
+            }
         }
     });
 
