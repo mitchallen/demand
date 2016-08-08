@@ -34,6 +34,7 @@ module.exports = function (grunt) {
                 commit: true,
                 createTag: true,
                 push: true,
+                pushTo: 'origin',
 
                 updateConfigs: ['pkg'],
                 commitFiles: ['package.json']
