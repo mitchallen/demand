@@ -33,11 +33,11 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
 
 ### notNull(object, message)
 
-Will throw an error containing the *message* parameter if the object parameter is null;
+Will throw an error containing the *message* parameter if the *object* parameter is null;
 
 ### notError(err)
 
-Will throw an error if the err object is not null. The error will use the string from *err.message*.
+Will throw an error if the *err* object is not null. The error will use the string from __err.message__.
 
 * * *
 
