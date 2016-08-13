@@ -52,6 +52,7 @@ To test, go to the root folder and type (sans __$__):
 ## Repo(s)
 
 * [bitbucket.org/mitchallen/demand.git](https://bitbucket.org/mitchallen/demand.git)
+* [github.com/mitchallen/demand.git](https://github.com/mitchallen/demand.git)
 
 * * *
 
