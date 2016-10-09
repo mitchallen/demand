@@ -17,7 +17,7 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
 
 ## Usage
 
-    var demand = require('demand');
+    var demand = require('@mitchallen/demand');
 
  	database.connect(uri, function(err,db) {
 
@@ -64,6 +64,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.3 release notes
+
+* __notNull__ now distinguishes between null and zero
 
 #### Version 0.1.2 release notes
 

@@ -32,6 +32,15 @@ describe('demand module', function() {
         done();
     });
 
+    it('notNull should not throw an error if object equals zero (0)', function(done) {
+
+        var value = 0;
+
+        demand.notNull(value,"This should NOT throw an error.");
+   
+        done();
+    });
+
     it('notError should throw an exception if error object exists', function(done) {
 
         var trigger = function() {

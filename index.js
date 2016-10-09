@@ -10,7 +10,7 @@
 module.exports = {
 
     notNull: function (obj, eMsg) {
-        if (!obj) {
+        if (obj===null) {
             let err = new Error(eMsg);
             console.error(err.message);
             throw err;
