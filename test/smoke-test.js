@@ -7,7 +7,6 @@
 "use strict";
 
 var demand = require('../index'),
-    test = require('unit.js'),
     should = require('should');
 
 describe('demand module', function() {
@@ -18,7 +17,7 @@ describe('demand module', function() {
             demand.notNull(null,"This should throw an error.");
         };
 
-        test.exception(trigger);
+        should.throws(trigger);
 
         done();
     });
@@ -48,7 +47,7 @@ describe('demand module', function() {
             demand.notError(err);
         };
 
-        test.exception(trigger);
+        should.throws(trigger);
 
         done();
     });

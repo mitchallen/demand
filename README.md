@@ -8,11 +8,29 @@ A module to throw errors if conditions aren't met.
 
 ## Installation
 
-You must use __npm__ __2.7.0__ or higher because of the scoped package name.
+As of __0.2.0__ this package is published to __GitHub Packages__, not the public npm
+registry. Versions __0.1.3 and earlier__ remain on npmjs.org and are no longer updated
+there.
+
+Requires __Node.js 18__ or higher.
+
+Add an `.npmrc` next to your `package.json`:
+
+    @mitchallen:registry=https://npm.pkg.github.com
+
+GitHub Packages requires authentication even for public packages, so you also need a
+personal access token with the `read:packages` scope. Keep it in an environment
+variable rather than committing it:
+
+    //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+
+Then:
 
     $ npm init
-    $ npm install @mitchallen/demand --save
-  
+    $ npm install @mitchallen/demand
+
+This package has __no dependencies__.
+
 * * *
 
 ## Usage
@@ -51,9 +69,7 @@ To test, go to the root folder and type (sans __$__):
  
 ## Repo(s)
 
-* [bitbucket.org/mitchallen/demand.git](https://bitbucket.org/mitchallen/demand.git)
 * [github.com/mitchallen/demand.git](https://github.com/mitchallen/demand.git)
-* [gitlab.com/mitchallen/demand.git](https://gitlab.com/mitchallen/demand.git)
  
 * * *
 
@@ -65,6 +81,16 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.2.0 release notes
+
+* now published to __GitHub Packages__ instead of npmjs.org (see Installation)
+* replaced __unit.js__ with __should.throws__ in the test suite
+* removed the Grunt toolchain
+* mocha is now a devDependency -- `npm test` previously fell back to a global install
+* upgraded __should__ to 13.x
+* replaced the __.npmignore__ blocklist with a __files__ allowlist
+* added an __engines__ field (Node.js 18+)
 
 #### Version 0.1.3 release notes
 
