@@ -4,6 +4,21 @@
 A module to throw errors if conditions aren't met.
 ----------------------------------------------------
 
+<p align="left">
+  <a href="https://github.com/mitchallen/demand/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/mitchallen/demand/ci.yml?branch=main" alt="CI">
+  </a>
+  <a href="https://github.com/mitchallen/demand/actions/workflows/ci.yml?query=branch%3Amain">
+    <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage: 100%">
+  </a>
+  <a href="https://github.com/mitchallen/demand/pkgs/npm/demand">
+    <img src="https://img.shields.io/github/package-json/v/mitchallen/demand?label=GitHub%20Packages" alt="Version">
+  </a>
+  <a href="https://github.com/mitchallen/demand/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  </a>
+</p>
+
 * * *
 
 ## Installation
