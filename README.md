@@ -1,9 +1,10 @@
 > **This repository is archived, and `@mitchallen/demand` is frozen at 0.2.2.**
 > That version stays installable from GitHub Packages for existing users, but
-> there will be no further releases. The code continues as
-> `@mitchallen/demand-v2`, an internal package of the
-> [drawing-kit](https://github.com/mitchallen/drawing-kit) monorepo
-> ([`packages/demand`](https://github.com/mitchallen/drawing-kit/tree/main/packages/demand)).
+> there will be no further releases. Its successor is
+> [`@mitchallen/demand-v2`](https://github.com/mitchallen/drawing-kit/tree/main/packages/demand#readme),
+> published from the [drawing-kit](https://github.com/mitchallen/drawing-kit)
+> monorepo (first release 0.2.3). Install that instead:
+> `npm install @mitchallen/demand-v2`.
 
 @mitchallen/demand
 ===============================
